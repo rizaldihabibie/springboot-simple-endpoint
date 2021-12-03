@@ -86,4 +86,11 @@
             </build>
         </profile>
     </profiles>
+    <distributionManagement>
+        <repository>
+                <id>github</id>
+                <name>Springboot Simple Rest</name>
+                <url>https://github.com/rizaldihabibie/springboot-simple-endpoint</url>
+        </repository>
+    </distributionManagement>
 </project>
