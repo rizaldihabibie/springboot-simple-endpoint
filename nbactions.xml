@@ -70,4 +70,23 @@
                 <activatedProfile>surefire-it</activatedProfile>
             </activatedProfiles>
         </action>
+    <action>
+            <actionName>CUSTOM-clean package</actionName>
+            <displayName>clean package</displayName>
+            <goals>
+                <goal>-B</goal>
+                <goal>clean</goal>
+                <goal>package</goal>
+            </goals>
+        </action>
+    <action>
+            <actionName>CUSTOM-artifact</actionName>
+            <displayName>artifact</displayName>
+            <goals>
+                <goal>-B</goal>
+                <goal>clean</goal>
+                <goal>deploy</goal>
+                <goal>-DskipTests</goal>
+            </goals>
+        </action>
 </actions>
